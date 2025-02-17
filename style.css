@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia';
+    text-decoration: none;
+    list-style: none;
+}
+
+.navigation{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background: #3E3C6E;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+/* navigation class */
+.mylogo{
+    font-size: 30px;
+    color: #f6c5b8;
+    font-weight: 900;
+    transition: 0.3 ease;
+}
+
+.mylogo:hover{
+    color: #fc797e;
+}
+    
+/* navbar class */
+.navbar a{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a:active{
+    color: #f6c5b8;
+    border-bottom: 3px solid #f6c5b8;
+}
+    
+
+/* contact class */
+.contact{
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3 ease;
+}
+
